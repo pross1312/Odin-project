@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    color: #000000;
+}
+.recipe {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background: transparent;
+    color: #333300ff;
+}
+.recipe.list {
+    background: #f1f2f355;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #000000;
+}

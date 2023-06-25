@@ -1,0 +1,6 @@
+html {
+    background-image: url("./spaghetti.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px;
+}
