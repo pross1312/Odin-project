@@ -1,0 +1,58 @@
+html {
+    background-color: #101010;
+}
+
+#snake_game_canvas {
+    border-radius: 5px;
+}
+
+.popup {
+    background-color: red;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: 50%;
+}
+/* The actual popup */
+.popup .mypopup {
+    font-size: 150%;
+    visibility: hidden;
+    text-align: center;
+    background-color: #666;
+    color: white;
+    width: 200px;
+    border-radius: 10px;
+    padding: 8px 0;
+    position: absolute;
+    left: 0px;
+    bottom: -50%;
+    margin-left: -100px;
+    cursor: default;
+}
+
+#new_game_button {
+    font-size: large;
+    background-color: #444;
+    min-width: 160px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: 5px;
+    cursor: pointer;
+}
+
+#new_game_button:hover {
+    background-color: #5e5c5c;
+    transition: 100ms;
+}
+
+.popup .show {
+    visibility: visible;
+    animation: fade_in 1.5s;
+}
+
+@keyframes fade_in {
+    from {opacity: 0;}
+    to {opacity: 1;}    
+} 

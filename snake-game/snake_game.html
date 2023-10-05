@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./snake_game.css"/>
+    <script src="./snake_game.js" defer></script>
+</head>
+<body>
+    <h1 style="text-align: center; color: white;">Snake game</h1>
+    <div style="text-align: center;">
+        <canvas id="snake_game_canvas" width="600" height="600";"></canvas>
+    </div>
+    <div class="popup">
+        <span class="mypopup" id="end_game_info">
+            Game Over<br>
+            <button id="new_game_button" onclick="restart()">
+                New game
+            </button>
+        </span>
+    </div>
+</body>
+</html>
